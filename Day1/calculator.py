@@ -1,3 +1,9 @@
-C=input("Enter Celsius")  
+A=input("Input first no ")  
+B=input("Input first no ") 
 
-print("Celsius and convert to Fahrenheit:",(int(C) * float(int(9)/int(5))) + 32)
+print("Before: A= ",int(A) ," B= ",int(B))
+
+Temp=A
+A=B
+B=Temp
+print("After: A= ",int(A) ," B= ",int(B))
